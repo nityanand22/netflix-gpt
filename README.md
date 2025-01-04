@@ -16,5 +16,11 @@
     - Movie Suggestions
       - MovieLists \* N
 - NetflixGPT
+
   - Search Bar
   - Movie Suggestion
+
+- created body page , header, Browse, and Login
+- then install react-router-dom for browsing normally it provides us createrBrowserRouter in which we write path for routing
+
+- We will build Login Form
