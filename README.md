@@ -24,3 +24,13 @@
 - then install react-router-dom for browsing normally it provides us createrBrowserRouter in which we write path for routing
 
 - We will build Login Form
+- Signup form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Deploying our app to Production
+- Create SignUp User Account
+- Implement Sign IN User API
+- Created Redux Store with userSlice
+- Implemented Sign Out Feature
+- Update Profile
