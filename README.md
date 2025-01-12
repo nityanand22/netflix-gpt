@@ -22,7 +22,6 @@
 
 - created body page , header, Browse, and Login
 - then install react-router-dom for browsing normally it provides us createrBrowserRouter in which we write path for routing
-
 - We will build Login Form
 - Signup form
 - Form Validation
@@ -40,3 +39,11 @@
 - Add hardcoded values to the constants file
 - Register TMDB API & create an app & get access token
 - Get data from TMDB now playing movies List API
+- Custom hook for Now Plating Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContainer and Secondary container
+- Fetcch Data for Trailer Video Data
+- Embedded the youtube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
+- Build Secondary Component
