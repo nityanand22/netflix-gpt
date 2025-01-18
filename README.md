@@ -57,3 +57,12 @@
 - GPT Search Bar
 - (** Bonus **) Multi-Language Feature in our App
 - (While adding the openai in the frontend , our secretkey will be leaked which is not allowed by the browser and it will throw error so we need to true the dangerouslyAllowBrowser in the openai.js for temporary)
+- Get openai api key
+- Gpt Search API Call
+- fetched GPT Movie Suggestion from tmdb
+- GPT Slice added data
+- Reused MovieList Component to make movie suggestion container
+- Memoization
+- Added .env file
+- Addding .env file to gitignore
+- Made our site responsive
