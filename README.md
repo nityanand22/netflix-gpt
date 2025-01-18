@@ -52,3 +52,4 @@
 - Tmdb image CDN URL
 - Made the browser page amazing with Tailwind CSS
 - usePopularMovies Custom hook
+- GPT Search Button in the Header
