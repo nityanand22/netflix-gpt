@@ -53,3 +53,7 @@
 - Made the browser page amazing with Tailwind CSS
 - usePopularMovies Custom hook
 - GPT Search Button in the Header
+- GPT Search Page
+- GPT Search Bar
+- (** Bonus **) Multi-Language Feature in our App
+- (While adding the openai in the frontend , our secretkey will be leaked which is not allowed by the browser and it will throw error so we need to true the dangerouslyAllowBrowser in the openai.js for temporary)
