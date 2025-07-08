@@ -25,7 +25,7 @@ const Header = () => {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        const { uid, email, displayName, photoURL } = user;
+        const { uid, email, displayName } = user;
         dispatch(
           addUser({
             uid: uid,
@@ -56,10 +56,10 @@ const Header = () => {
     <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
       <img className="w-44 mx-auto md:mx-0" src={LOGO} alt="logo" />
       {user && (
-        <div className="flex p-2 justify-between">
+        <div className="flex p-2 justify-between items-center">
           {showGptSearch && (
             <select
-              className="p-2 bg-gray-600 text-white m-2"
+              className="p-2 bg-white text-black rounded-lg m-2"
               onChange={handleLanguageChange}
             >
               {SUPPORTED_LANGUAGES.map((lang) => (
@@ -76,11 +76,14 @@ const Header = () => {
             {showGptSearch ? "HomePage" : "GPT Search"}
           </button>
           <img
-            className="hidden md:block w-12 h-12"
+            className="hidden md:block w-12 h-12 rounded-full"
             alt="usericon"
             src={user?.photoURL}
           />
-          <button className="font-bold text-white" onClick={handleSignOut}>
+          <button
+            className="font-bold text-white px-4 py-2 bg-red-800 rounded-md mx-4 my-4"
+            onClick={handleSignOut}
+          >
             Sign Out
           </button>
         </div>
