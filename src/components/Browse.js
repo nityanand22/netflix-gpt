@@ -7,6 +7,7 @@ import GptSearch from "./GptSearch";
 import { useSelector } from "react-redux";
 import useUpcomingMovies from "../hooks/useUpcomingMovies";
 import useTopRatedMovies from "../hooks/useTopRatedMovies";
+import Footer from "./Footer";
 
 const Browse = () => {
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
@@ -17,7 +18,7 @@ const Browse = () => {
   useTopRatedMovies();
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       {showGptSearch ? (
         <GptSearch />
@@ -25,6 +26,7 @@ const Browse = () => {
         <div className="flex flex-col">
           <MainContainer />
           <SecondaryContainer />
+          <Footer />
         </div>
       )}
     </div>
