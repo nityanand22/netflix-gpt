@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import useUpcomingMovies from "../hooks/useUpcomingMovies";
 import useTopRatedMovies from "../hooks/useTopRatedMovies";
 import Footer from "./Footer";
+import FAQ from "./FAQ";
 
 const Browse = () => {
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
@@ -26,6 +27,7 @@ const Browse = () => {
         <div className="flex flex-col">
           <MainContainer />
           <SecondaryContainer />
+          <FAQ />
           <Footer />
         </div>
       )}

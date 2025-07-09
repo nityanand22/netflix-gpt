@@ -9,7 +9,7 @@ const Footer = () => {
           <span className="underline underline-offset-0">000-800-919-1743</span>
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 underline underline-offset-1 font-medium">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 underline underline-offset-1 font-medium items-center">
           <p>FAQ</p>
           <p>Help Centre</p>
           <p>Account</p>
